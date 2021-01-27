@@ -80,9 +80,54 @@ font-weight: normal;
 font-size: 24px;
 line-height: 28px;
 color: #FFFFFF;
-
 }
 
+.detalhe__senha{
+position: absolute;
+width: 71px;
+height: 28px;
+left: 478px;
+top: 650px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.caixa__nome{
+position: absolute;
+width: 279px;
+height: 40px;
+left: 682px;
+top: 499px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+
+.caixa__celular{
+position: absolute;
+width: 279px;
+height: 40px;
+left: 682px;
+top: 572px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+::placeholder{
+position: absolute;
+width: 109px;
+height: 19px;
+left: 694px;
+top: 582px;
+font-family: Rubik;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #B1B1B1;
+
+}
 /*.caixa__maior{
 position: absolute;
 width: 1124px;
