@@ -1,0 +1,94 @@
+body{
+background-color: #32236D;
+position: absolute;
+width: 1280px;
+height: 1028px;
+left: 80px;
+top: 194px;
+}
+
+.nome__principal{
+position: absolute;
+width: 193px;
+height: 50px;
+left: 158px;
+top: 256px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 50px;
+color: #FFFFFF;
+}
+
+.voltar{
+position: absolute;
+width: 43px;
+height: 19px;
+left: 1239px;
+top: 271px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: right;
+text-decoration-line: underline;
+color: #FFFFFF;
+opacity: 0.5;
+}
+
+.titulo{
+position: absolute;
+width: 226px;
+height: 28px;
+left: 478px;
+top: 409px;
+font-family: Rubik;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.detalhe__nome{
+position: absolute;
+width: 112px;
+height: 28px;
+left: 478px;
+top: 505px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+
+}
+
+.detalhe__celular{
+position: absolute;
+width: 78px;
+height: 28px;
+left: 478px;
+top: 578px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+
+}
+
+/*.caixa__maior{
+position: absolute;
+width: 1124px;
+height: 765px;
+left: 158px;
+top: 329px;
+background: #32236D;
+border-radius: 20px;
+}*/
