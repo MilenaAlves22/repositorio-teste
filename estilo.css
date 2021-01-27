@@ -137,3 +137,13 @@ top: 329px;
 background: #32236D;
 border-radius: 20px;
 }*/
+
+input{
+    position: absolute;
+    width: 279px;
+    height: 40px;
+    left: 682px;
+    top: 572px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
