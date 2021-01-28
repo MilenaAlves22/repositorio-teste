@@ -10,27 +10,51 @@
 </head>
 
 <body>
-    <div>
-        <H1 class="nome__principal">Cadastro </h1>
-        <h2 class="voltar"> voltar</h2>
+    <div class="nome__principal">
+        Cadastro
     </div>
+
+    <div class="voltar">
+        voltar
+    </div>
+
     <div class="caixa__maior">
         <div class="titulo">
             1.Dados para acesso
         </div>
+        <form>
+            <div class="caixa_nome_input" id="nome">
+                <p class="detalhe__nome">Seu Nome</p> <input type="text" class="cadastro">
+            </div>
 
-        <div class="caixa__nome" id="nome">
-            <p class="detalhe__nome">Seu Nome</p> <input type="text" class="cadastro">
-        </div>
+            <div class="caixa_celular_input" id="celular">
+                <p class="detalhe__celular"> Celular </p><input type="text" placeholder="DDD + número" class="cadastro">
+            </div>
 
-        <div class="caixa__celular" id="celular">
-            <p class="detalhe__celular"> Celular </p><input type="text" placeholder="DDD + número" class="cadastro">
-        </div>
+            <div class=" caixa_senha_input" id="senha">
+                <p class="detalhe__senha">Senha</p> <input type="password" class="cadastro" required>
+            </div>
+            <div class="pergunta_segurança_input">
+                <p> Pergunta de segurança </p> 
+            </div>
 
-        <div class=" caixa__senha" id="senha">
-            <p class="detalhe__senha">Senha</p> <input type="password" class="cadastro" required>
+            <select class="caixa_pergunta" id="pergunta">
+                <option>Selecione sua pergunta</option>
+                <option>Qual é o nome da sua mãe</option>
+                <option>Cor favorita</option>
+                <option>Sua ultima professora</option>
+              </select>
 
-        </div>
+            <div class="caixa_resposta_input" id="resposta">
+                <input class="detalhe" type="text" placeholder="Digite sua resposta">
+            </div>
+
+            <div  id="botao" >
+                <input class="botao__continuar"type="button" placeholder="Continuar">
+            </div>
+
+        </form>
+
     </div>
 
 
