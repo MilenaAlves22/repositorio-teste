@@ -74,7 +74,7 @@ line-height: 28px;
 color: #FFFFFF;
 }
 
-.caixa_nome_input{
+#caixa_nome_input{
 position: absolute;
 width: 279px;
 height: 40px;
@@ -98,7 +98,7 @@ line-height: 28px;
 color: #FFFFFF;
 }
 
-.caixa_celular_input{
+#caixa_celular_input{
 position: absolute;
 width: 279px;
 height: 40px;
@@ -122,7 +122,7 @@ line-height: 28px;
 color: #FFFFFF;
 }
 
-.caixa_senha_input{
+#caixa_senha_input{
 position: absolute;
 width: 279px;
 height: 40px;
@@ -147,7 +147,7 @@ text-align: center;
 color: #FFFFFF;
 
 }
-.caixa_pergunta{
+#caixa_pergunta{
 position: absolute;
 width: 483px;
 height: 40px;
@@ -156,7 +156,7 @@ top: 550px;
 background: #FFFFFF;
 border-radius: 4px;
 }
-.caixa_resposta_input{
+#caixa_resposta_input{
 position: absolute;
 width: 483px;
 height: 40px;
@@ -197,7 +197,27 @@ left: 450px;
 top: 680px;
 background: #FF276F;
 border-radius: 6px;
+color: #FFFFFF;
 }
 
+.form--error-text-form--error{
+    display:none;
+    color: #ff7a7a;
+    font-size: 0.7rem;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    
+}
 
+.form__input.error
+.form--error{
+    display: block;
+}
+
+.form__input.error
+.cadastro{
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    border: 2px #ff7a7a solid;
+}
 
