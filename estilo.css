@@ -18,8 +18,8 @@ body{
 position: absolute;
 width: 193px;
 height: 50px;
-left: 158px;
-top: 256px;
+left: 300px;
+top: 170px;
 font-family: Rubik;
 font-style: normal;
 font-weight: bold;
@@ -33,7 +33,7 @@ position: absolute;
 width: 43px;
 height: 19px;
 left: 1239px;
-top: 271px;
+top: 170px;
 font-family: Rubik;
 font-style: normal;
 font-weight: normal;
@@ -102,8 +102,8 @@ color: #FFFFFF;
 position: absolute;
 width: 279px;
 height: 40px;
-left: 500px;
-top: 300px;
+left: 700px;
+top: 550px;
 background: #FFFFFF;
 border-radius: 4px;
 }
@@ -112,7 +112,7 @@ border-radius: 4px;
 position: absolute;
 width: 71px;
 height: 28px;
-left: -150px;
+left: -170px;
 top: 5px;
 font-family: Rubik;
 font-style: normal;
@@ -126,8 +126,8 @@ color: #FFFFFF;
 position: absolute;
 width: 279px;
 height: 40px;
-left: 500px;
-top: 400px;
+left: 800px;
+top: 600px;
 background: #FFFFFF;
 border-radius: 4px;
 }
@@ -136,8 +136,8 @@ border-radius: 4px;
 position: absolute;
 width: 261px;
 height: 28px;
-left: 300px;
-top: 500px;
+left: 580px;
+top: 700px;
 font-family: Rubik;
 font-style: normal;
 font-weight: normal;
@@ -151,8 +151,8 @@ color: #FFFFFF;
 position: absolute;
 width: 483px;
 height: 40px;
-left: 300px;
-top: 550px;
+left: 600px;
+top: 750px;
 background: #FFFFFF;
 border-radius: 4px;
 }
@@ -160,8 +160,8 @@ border-radius: 4px;
 position: absolute;
 width: 483px;
 height: 40px;
-left: 300px;
-top: 600px;
+left: 600px;
+top: 800px;
 background: #FFFFFF;
 border-radius: 4px;
 }
@@ -173,14 +173,14 @@ height:40px ;
 border: 1px;
 }
 .detalhe{
-position: absolute;
+position: center;
 width: 281px;
 height:40px ;
 border: 1px;
 }
 
 .caixa__maior{
-position: absolute;
+position: center;
 width: 1124px;
 height: 765px;
 left: 158px;
@@ -193,14 +193,14 @@ border-radius: 20px;
 position: absolute;
 width: 154px;
 height: 50px;
-left: 450px;
-top: 680px;
+left: 750px;
+top: 900px;
 background: #FF276F;
 border-radius: 6px;
 color: #FFFFFF;
 }
 
-.form--error-text-form--error{
+/*.form--error-text-form--error{
     display:none;
     color: #ff7a7a;
     font-size: 0.7rem;
